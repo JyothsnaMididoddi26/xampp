@@ -1,0 +1,149 @@
+[Sun Feb 11 12:03:04.337551 2018] [ssl:warn] [pid 3056:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 11 12:03:04.848832 2018] [ssl:warn] [pid 3056:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 11 12:03:07.377131 2018] [mpm_winnt:notice] [pid 3056:tid 672] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/5.6.33 configured -- resuming normal operations
+[Sun Feb 11 12:03:07.377131 2018] [mpm_winnt:notice] [pid 3056:tid 672] AH00456: Apache Lounge VC11 Server built: Nov  6 2017 10:38:49
+[Sun Feb 11 12:03:07.377131 2018] [core:notice] [pid 3056:tid 672] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Feb 11 12:03:07.538262 2018] [mpm_winnt:notice] [pid 3056:tid 672] AH00418: Parent: Created child process 4852
+[Sun Feb 11 12:03:08.797757 2018] [ssl:warn] [pid 4852:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 11 12:03:09.110291 2018] [ssl:warn] [pid 4852:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 11 12:03:09.303710 2018] [mpm_winnt:notice] [pid 4852:tid 652] AH00354: Child: Starting 150 worker threads.
+[Sun Feb 11 12:06:23.032362 2018] [ssl:warn] [pid 11728:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 11 12:06:23.690199 2018] [ssl:warn] [pid 11728:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 11 12:06:23.758273 2018] [mpm_winnt:notice] [pid 11728:tid 636] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/5.6.33 configured -- resuming normal operations
+[Sun Feb 11 12:06:23.758273 2018] [mpm_winnt:notice] [pid 11728:tid 636] AH00456: Apache Lounge VC11 Server built: Nov  6 2017 10:38:49
+[Sun Feb 11 12:06:23.758273 2018] [core:notice] [pid 11728:tid 636] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Feb 11 12:06:23.852682 2018] [mpm_winnt:notice] [pid 11728:tid 636] AH00418: Parent: Created child process 12088
+[Sun Feb 11 12:06:24.743901 2018] [ssl:warn] [pid 12088:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 11 12:06:25.045135 2018] [ssl:warn] [pid 12088:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 11 12:06:25.084162 2018] [mpm_winnt:notice] [pid 12088:tid 552] AH00354: Child: Starting 150 worker threads.
+[Sun Feb 11 12:20:29.024937 2018] [:error] [pid 12088:tid 1996] [client ::1:50882] PHP Parse error:  syntax error, unexpected '<' in C:\\xampp\\htdocs\\tutorials\\hello.php on line 6
+[Sun Feb 11 15:53:48.446210 2018] [:error] [pid 12088:tid 1964] [client ::1:51112] PHP Notice:  Undefined variable: COLOR in C:\\xampp\\htdocs\\tutorials\\hello.php on line 26
+[Sun Feb 11 15:53:48.446210 2018] [:error] [pid 12088:tid 1964] [client ::1:51112] PHP Notice:  Undefined variable: coLOR in C:\\xampp\\htdocs\\tutorials\\hello.php on line 27
+[Sun Feb 11 15:54:26.706914 2018] [:error] [pid 12088:tid 2000] [client ::1:51117] PHP Notice:  Undefined variable: coLOR in C:\\xampp\\htdocs\\tutorials\\hello.php on line 27
+[Sun Feb 11 16:38:54.151538 2018] [:error] [pid 12088:tid 2000] [client ::1:51249] script 'C:/xampp/htdocs/tutorials/practice.php' not found or unable to stat
+[Sun Feb 11 16:41:10.051731 2018] [:error] [pid 12088:tid 2000] [client ::1:51259] PHP Notice:  Undefined variable: z in C:\\xampp\\htdocs\\tutorials\\practice.php on line 11
+[Sun Feb 11 16:41:39.796619 2018] [:error] [pid 12088:tid 2000] [client ::1:51261] PHP Notice:  Undefined variable: z in C:\\xampp\\htdocs\\tutorials\\practice.php on line 11
+[Sun Feb 11 16:44:27.145426 2018] [:error] [pid 12088:tid 2000] [client ::1:51266] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\\xampp\\htdocs\\tutorials\\practice.php on line 9
+[Sun Feb 11 16:49:21.768430 2018] [:error] [pid 12088:tid 1964] [client ::1:51271] PHP Notice:  Undefined variable: x in C:\\xampp\\htdocs\\tutorials\\practice.php on line 16
+[Sun Feb 11 16:49:21.768430 2018] [:error] [pid 12088:tid 1964] [client ::1:51271] PHP Notice:  Undefined variable: y in C:\\xampp\\htdocs\\tutorials\\practice.php on line 16
+[Sun Feb 11 16:50:08.036417 2018] [:error] [pid 12088:tid 2000] [client ::1:51273] PHP Notice:  Undefined variable: y in C:\\xampp\\htdocs\\tutorials\\practice.php on line 16
+[Sun Feb 11 16:50:08.036417 2018] [:error] [pid 12088:tid 2000] [client ::1:51273] PHP Notice:  Undefined variable: x in C:\\xampp\\htdocs\\tutorials\\practice.php on line 16
+[Sun Feb 11 16:50:09.564305 2018] [:error] [pid 12088:tid 2000] [client ::1:51273] PHP Notice:  Undefined variable: y in C:\\xampp\\htdocs\\tutorials\\practice.php on line 16
+[Sun Feb 11 16:50:09.565306 2018] [:error] [pid 12088:tid 2000] [client ::1:51273] PHP Notice:  Undefined variable: x in C:\\xampp\\htdocs\\tutorials\\practice.php on line 16
+[Sun Feb 11 16:50:39.980622 2018] [:error] [pid 12088:tid 1964] [client ::1:51275] PHP Notice:  Undefined variable: z in C:\\xampp\\htdocs\\tutorials\\practice.php on line 15
+[Sun Feb 11 16:50:39.980622 2018] [:error] [pid 12088:tid 1964] [client ::1:51275] PHP Notice:  Undefined variable: y in C:\\xampp\\htdocs\\tutorials\\practice.php on line 16
+[Sun Feb 11 16:50:39.980622 2018] [:error] [pid 12088:tid 1964] [client ::1:51275] PHP Notice:  Undefined variable: x in C:\\xampp\\htdocs\\tutorials\\practice.php on line 16
+[Sun Feb 11 16:51:20.440095 2018] [:error] [pid 12088:tid 2000] [client ::1:51279] PHP Notice:  Undefined variable: y in C:\\xampp\\htdocs\\tutorials\\practice.php on line 15
+[Sun Feb 11 16:51:20.441096 2018] [:error] [pid 12088:tid 2000] [client ::1:51279] PHP Notice:  Undefined variable: x in C:\\xampp\\htdocs\\tutorials\\practice.php on line 15
+[Sun Feb 11 16:53:21.605721 2018] [:error] [pid 12088:tid 1964] [client ::1:51283] script 'C:/xampp/htdocs/tutorials/tutorial.php' not found or unable to stat
+[Sun Feb 11 17:02:33.307617 2018] [:error] [pid 12088:tid 2000] [client ::1:51304] PHP Warning:  Unterminated comment starting line 14 in C:\\xampp\\htdocs\\tutorials\\practice.php on line 14
+[Sun Feb 11 17:02:59.708558 2018] [:error] [pid 12088:tid 2000] [client ::1:51305] PHP Warning:  Unterminated comment starting line 14 in C:\\xampp\\htdocs\\tutorials\\practice.php on line 14
+[Sun Feb 11 17:03:46.766848 2018] [:error] [pid 12088:tid 2000] [client ::1:51306] PHP Warning:  Unterminated comment starting line 14 in C:\\xampp\\htdocs\\tutorials\\practice.php on line 14
+[Sun Feb 11 17:03:48.873418 2018] [:error] [pid 12088:tid 2000] [client ::1:51306] PHP Warning:  Unterminated comment starting line 14 in C:\\xampp\\htdocs\\tutorials\\practice.php on line 14
+[Sun Feb 11 17:03:58.925372 2018] [:error] [pid 12088:tid 1964] [client ::1:51308] PHP Warning:  Unterminated comment starting line 14 in C:\\xampp\\htdocs\\tutorials\\practice.php on line 14
+[Sun Feb 11 17:12:14.474521 2018] [:error] [pid 12088:tid 2000] [client ::1:51319] PHP Notice:  Undefined variable: txt in C:\\xampp\\htdocs\\tutorials\\practice.php on line 25
+[Sun Feb 11 17:12:14.474521 2018] [:error] [pid 12088:tid 2000] [client ::1:51319] PHP Notice:  Undefined variable: x in C:\\xampp\\htdocs\\tutorials\\practice.php on line 25
+[Sun Feb 11 17:12:14.474521 2018] [:error] [pid 12088:tid 2000] [client ::1:51319] PHP Notice:  Undefined variable: y in C:\\xampp\\htdocs\\tutorials\\practice.php on line 25
+[Sun Feb 11 17:12:14.478520 2018] [:error] [pid 12088:tid 2000] [client ::1:51319] PHP Notice:  Undefined variable: z in C:\\xampp\\htdocs\\tutorials\\practice.php on line 26
+[Mon Feb 12 11:02:57.222179 2018] [ssl:warn] [pid 1636:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 12 11:02:57.332261 2018] [core:warn] [pid 1636:tid 660] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 12 11:02:57.478510 2018] [ssl:warn] [pid 1636:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 12 11:03:00.149386 2018] [mpm_winnt:notice] [pid 1636:tid 660] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/5.6.33 configured -- resuming normal operations
+[Mon Feb 12 11:03:00.149386 2018] [mpm_winnt:notice] [pid 1636:tid 660] AH00456: Apache Lounge VC11 Server built: Nov  6 2017 10:38:49
+[Mon Feb 12 11:03:00.149386 2018] [core:notice] [pid 1636:tid 660] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Feb 12 11:03:00.277186 2018] [mpm_winnt:notice] [pid 1636:tid 660] AH00418: Parent: Created child process 7632
+[Mon Feb 12 11:03:01.091998 2018] [ssl:warn] [pid 7632:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 12 11:03:01.340360 2018] [ssl:warn] [pid 7632:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 12 11:03:01.465765 2018] [mpm_winnt:notice] [pid 7632:tid 648] AH00354: Child: Starting 150 worker threads.
+[Mon Feb 12 11:04:29.889270 2018] [:error] [pid 7632:tid 2016] [client ::1:52990] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\\xampp\\htdocs\\tutorials\\practice.php on line 36
+[Mon Feb 12 11:16:03.455463 2018] [:error] [pid 7632:tid 2016] [client ::1:53016] PHP Notice:  Array to string conversion in C:\\xampp\\htdocs\\tutorials\\practice.php on line 40
+[Mon Feb 12 11:21:06.804542 2018] [:error] [pid 7632:tid 2016] [client ::1:53032] PHP Notice:  Undefined variable: number1 in C:\\xampp\\htdocs\\tutorials\\practice.php on line 45
+[Mon Feb 12 11:23:15.641430 2018] [:error] [pid 7632:tid 2016] [client ::1:53038] PHP Notice:  Undefined variable: numbers in C:\\xampp\\htdocs\\tutorials\\practice.php on line 46
+[Mon Feb 12 11:56:28.758396 2018] [:error] [pid 7632:tid 2016] [client ::1:53134] script 'C:/xampp/htdocs/tutorials/loop.php' not found or unable to stat
+[Mon Feb 12 11:57:21.357142 2018] [:error] [pid 7632:tid 2012] [client ::1:53137] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\xampp\\htdocs\\tutorials\\loops.php on line 12, referer: http://localhost/tutorials/
+[Mon Feb 12 12:10:52.840708 2018] [:error] [pid 7632:tid 2016] [client ::1:53174] PHP Fatal error:  Call to undefined function size() in C:\\xampp\\htdocs\\tutorials\\loops.php on line 17, referer: http://localhost/tutorials/
+[Mon Feb 12 12:11:32.344645 2018] [:error] [pid 7632:tid 2016] [client ::1:53176] PHP Notice:  Undefined offset: 6 in C:\\xampp\\htdocs\\tutorials\\loops.php on line 18, referer: http://localhost/tutorials/
+[Mon Feb 12 19:28:07.153292 2018] [:error] [pid 7632:tid 2016] [client ::1:53421] PHP Warning:  str_word_count() expects parameter 2 to be long, string given in C:\\xampp\\htdocs\\tutorials\\practice1.php on line 10
+[Mon Feb 12 19:39:26.725213 2018] [:error] [pid 7632:tid 2008] [client ::1:53450] PHP Parse error:  syntax error, unexpected 'jyothsna' (T_STRING) in C:\\xampp\\htdocs\\tutorials\\practice1.php on line 30
+[Mon Feb 12 19:44:11.673228 2018] [:error] [pid 7632:tid 2008] [client ::1:53462] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in C:\\xampp\\htdocs\\tutorials\\practice1.php on line 34
+[Mon Feb 12 19:47:52.746282 2018] [:error] [pid 7632:tid 2008] [client ::1:53485] PHP Warning:  addcslashes() expects exactly 2 parameters, 3 given in C:\\xampp\\htdocs\\tutorials\\practice1.php on line 34
+[Mon Feb 12 19:48:17.357201 2018] [:error] [pid 7632:tid 2016] [client ::1:53487] PHP Warning:  addcslashes() expects exactly 2 parameters, 3 given in C:\\xampp\\htdocs\\tutorials\\practice1.php on line 34
+[Mon Feb 12 19:48:32.372771 2018] [:error] [pid 7632:tid 2008] [client ::1:53489] PHP Warning:  addcslashes() expects exactly 2 parameters, 4 given in C:\\xampp\\htdocs\\tutorials\\practice1.php on line 34
+[Mon Feb 12 19:49:12.856814 2018] [:error] [pid 7632:tid 2016] [client ::1:53491] PHP Warning:  addcslashes() expects exactly 2 parameters, 3 given in C:\\xampp\\htdocs\\tutorials\\practice1.php on line 34
+[Tue Feb 13 06:47:27.486779 2018] [ssl:warn] [pid 11064:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 13 06:47:27.691847 2018] [core:warn] [pid 11064:tid 584] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 13 06:47:28.039840 2018] [ssl:warn] [pid 11064:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 13 06:47:30.647595 2018] [mpm_winnt:notice] [pid 11064:tid 584] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/5.6.33 configured -- resuming normal operations
+[Tue Feb 13 06:47:30.647595 2018] [mpm_winnt:notice] [pid 11064:tid 584] AH00456: Apache Lounge VC11 Server built: Nov  6 2017 10:38:49
+[Tue Feb 13 06:47:30.647595 2018] [core:notice] [pid 11064:tid 584] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Feb 13 06:47:30.803597 2018] [mpm_winnt:notice] [pid 11064:tid 584] AH00418: Parent: Created child process 4828
+[Tue Feb 13 06:47:32.227241 2018] [ssl:warn] [pid 4828:tid 676] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 13 06:47:32.623326 2018] [ssl:warn] [pid 4828:tid 676] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 13 06:47:32.663329 2018] [mpm_winnt:notice] [pid 4828:tid 676] AH00354: Child: Starting 150 worker threads.
+[Tue Feb 13 07:22:57.499163 2018] [:error] [pid 4828:tid 2000] [client ::1:57028] PHP Warning:  implode() expects at most 2 parameters, 3 given in C:\\xampp\\htdocs\\tutorials\\practice1.php on line 67
+[Tue Feb 13 07:24:02.254016 2018] [:error] [pid 4828:tid 1992] [client ::1:57032] PHP Warning:  implode() expects at most 2 parameters, 3 given in C:\\xampp\\htdocs\\tutorials\\practice1.php on line 67
+[Tue Feb 13 07:24:26.589462 2018] [:error] [pid 4828:tid 2000] [client ::1:57034] PHP Warning:  implode() expects at most 2 parameters, 3 given in C:\\xampp\\htdocs\\tutorials\\practice1.php on line 67
+[Tue Feb 13 07:27:16.957829 2018] [:error] [pid 4828:tid 1992] [client ::1:57052] PHP Warning:  explode() expects parameter 2 to be string, array given in C:\\xampp\\htdocs\\tutorials\\practice1.php on line 75
+[Thu Feb 15 11:00:23.727998 2018] [:error] [pid 4828:tid 2000] [client ::1:60757] PHP Fatal error:  Call to undefined function add() in C:\\xampp\\htdocs\\tutorials\\function.php on line 3, referer: http://localhost/tutorials/
+[Thu Feb 15 11:20:23.312623 2018] [:error] [pid 4828:tid 2000] [client ::1:60862] PHP Parse error:  syntax error, unexpected '.4' (T_DNUMBER), expecting ']' in C:\\xampp\\htdocs\\tutorials\\function.php on line 16, referer: http://localhost/tutorials/
+[Thu Feb 15 11:20:52.483004 2018] [:error] [pid 4828:tid 2000] [client ::1:60865] PHP Notice:  Undefined variable: text in C:\\xampp\\htdocs\\tutorials\\function.php on line 9, referer: http://localhost/tutorials/
+[Thu Feb 15 11:21:16.108191 2018] [:error] [pid 4828:tid 2000] [client ::1:60866] PHP Notice:  Undefined variable: text in C:\\xampp\\htdocs\\tutorials\\function.php on line 9, referer: http://localhost/tutorials/
+[Thu Feb 15 11:26:20.609209 2018] [:error] [pid 4828:tid 1984] [client ::1:60881] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in C:\\xampp\\htdocs\\tutorials\\function.php on line 24, referer: http://localhost/tutorials/
+[Thu Feb 15 11:27:53.287645 2018] [:error] [pid 4828:tid 2000] [client ::1:60888] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in C:\\xampp\\htdocs\\tutorials\\function.php on line 24, referer: http://localhost/tutorials/
+[Thu Feb 15 11:28:06.588102 2018] [:error] [pid 4828:tid 2000] [client ::1:60893] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in C:\\xampp\\htdocs\\tutorials\\function.php on line 24, referer: http://localhost/tutorials/
+[Thu Feb 15 11:28:09.469688 2018] [:error] [pid 4828:tid 2000] [client ::1:60893] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in C:\\xampp\\htdocs\\tutorials\\function.php on line 24, referer: http://localhost/tutorials/
+[Thu Feb 15 11:47:12.815016 2018] [:error] [pid 4828:tid 2000] [client ::1:60973] PHP Parse error:  syntax error, unexpected '$x' (T_VARIABLE), expecting function (T_FUNCTION) in C:\\xampp\\htdocs\\tutorials\\class.php on line 21
+[Thu Feb 15 11:47:47.505407 2018] [:error] [pid 4828:tid 1984] [client ::1:60977] PHP Parse error:  syntax error, unexpected '$x' (T_VARIABLE), expecting function (T_FUNCTION) in C:\\xampp\\htdocs\\tutorials\\class.php on line 21
+[Fri Feb 16 13:05:04.567164 2018] [:error] [pid 4828:tid 1980] [client ::1:62581] PHP Parse error:  syntax error, unexpected '=', expecting ';' in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 17
+[Fri Feb 16 13:05:37.507136 2018] [:error] [pid 4828:tid 1984] [client ::1:62584] PHP Parse error:  syntax error, unexpected '=', expecting ';' in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 17
+[Fri Feb 16 13:05:59.800222 2018] [:error] [pid 4828:tid 1980] [client ::1:62587] PHP Parse error:  syntax error, unexpected '=', expecting ';' in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 17
+[Fri Feb 16 13:08:58.707597 2018] [:error] [pid 4828:tid 1984] [client ::1:62594] PHP Notice:  Undefined offset: 5 in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 18
+[Fri Feb 16 13:37:00.358365 2018] [:error] [pid 4828:tid 1984] [client ::1:62705] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 44
+[Fri Feb 16 13:37:48.362734 2018] [:error] [pid 4828:tid 1980] [client ::1:62710] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 44
+[Fri Feb 16 13:37:51.727744 2018] [:error] [pid 4828:tid 1980] [client ::1:62710] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 44
+[Fri Feb 16 13:37:52.063749 2018] [:error] [pid 4828:tid 1980] [client ::1:62710] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 44
+[Fri Feb 16 13:38:21.755856 2018] [:error] [pid 4828:tid 1984] [client ::1:62717] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 44
+[Fri Feb 16 13:38:44.076383 2018] [:error] [pid 4828:tid 1980] [client ::1:62719] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 44
+[Fri Feb 16 13:39:09.261500 2018] [:error] [pid 4828:tid 1984] [client ::1:62721] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 44
+[Fri Feb 16 13:39:43.594218 2018] [:error] [pid 4828:tid 1980] [client ::1:62724] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 44
+[Fri Feb 16 13:39:57.455009 2018] [:error] [pid 4828:tid 1984] [client ::1:62728] PHP Parse error:  syntax error, unexpected '$companies' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Fri Feb 16 13:41:07.364404 2018] [:error] [pid 4828:tid 1980] [client ::1:62730] PHP Parse error:  syntax error, unexpected '$companies' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Fri Feb 16 13:41:37.885905 2018] [:error] [pid 4828:tid 1984] [client ::1:62733] PHP Parse error:  syntax error, unexpected '$comp' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Fri Feb 16 13:42:29.607792 2018] [:error] [pid 4828:tid 1980] [client ::1:62736] PHP Parse error:  syntax error, unexpected '$companies' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Fri Feb 16 13:42:46.103377 2018] [:error] [pid 4828:tid 1984] [client ::1:62738] PHP Parse error:  syntax error, unexpected '$companies' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Fri Feb 16 13:43:32.638653 2018] [:error] [pid 4828:tid 1980] [client ::1:62740] PHP Parse error:  syntax error, unexpected '$c' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Fri Feb 16 13:44:03.316043 2018] [:error] [pid 4828:tid 1984] [client ::1:62742] PHP Parse error:  syntax error, unexpected '$c' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Fri Feb 16 13:45:09.393624 2018] [:error] [pid 4828:tid 1980] [client ::1:62748] PHP Parse error:  syntax error, unexpected '$c' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Fri Feb 16 13:45:35.056307 2018] [:error] [pid 4828:tid 1984] [client ::1:62750] PHP Parse error:  syntax error, unexpected '$C' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Fri Feb 16 13:52:36.413584 2018] [:error] [pid 4828:tid 1984] [client ::1:62764] PHP Parse error:  syntax error, unexpected '$C' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Fri Feb 16 13:52:41.104609 2018] [:error] [pid 4828:tid 1984] [client ::1:62764] PHP Parse error:  syntax error, unexpected '$C' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Fri Feb 16 13:52:57.066296 2018] [:error] [pid 4828:tid 1984] [client ::1:62766] PHP Parse error:  syntax error, unexpected '$work' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 61
+[Fri Feb 16 13:54:08.136260 2018] [:error] [pid 4828:tid 1984] [client ::1:62767] PHP Parse error:  syntax error, unexpected '$assarray' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 61
+[Fri Feb 16 13:54:47.312519 2018] [:error] [pid 4828:tid 1984] [client ::1:62769] PHP Parse error:  syntax error, unexpected '$assarray' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 61
+[Mon Feb 19 14:55:41.175249 2018] [:error] [pid 4828:tid 1980] [client ::1:63602] PHP Parse error:  syntax error, unexpected '$C' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Mon Feb 19 14:56:28.448822 2018] [:error] [pid 4828:tid 1984] [client ::1:63604] PHP Parse error:  syntax error, unexpected '$C' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Mon Feb 19 14:57:07.264402 2018] [:error] [pid 4828:tid 1984] [client ::1:63605] PHP Parse error:  syntax error, unexpected '$C' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Mon Feb 19 14:57:24.605642 2018] [:error] [pid 4828:tid 1984] [client ::1:63606] PHP Parse error:  syntax error, unexpected '$a' (T_VARIABLE) in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 50
+[Mon Feb 19 14:59:12.163339 2018] [:error] [pid 4828:tid 1984] [client ::1:63611] PHP Notice:  Undefined variable: assarry in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 62
+[Mon Feb 19 14:59:12.180778 2018] [:error] [pid 4828:tid 1984] [client ::1:63611] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\tutorials\\practice2.php on line 62
+[Tue Feb 20 15:14:32.595356 2018] [ssl:warn] [pid 30196:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 20 15:14:32.699357 2018] [core:warn] [pid 30196:tid 644] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 20 15:14:32.831360 2018] [ssl:warn] [pid 30196:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 20 15:14:33.490658 2018] [mpm_winnt:notice] [pid 30196:tid 644] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/5.6.33 configured -- resuming normal operations
+[Tue Feb 20 15:14:33.490658 2018] [mpm_winnt:notice] [pid 30196:tid 644] AH00456: Apache Lounge VC11 Server built: Nov  6 2017 10:38:49
+[Tue Feb 20 15:14:33.490658 2018] [core:notice] [pid 30196:tid 644] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Feb 20 15:14:33.542665 2018] [mpm_winnt:notice] [pid 30196:tid 644] AH00418: Parent: Created child process 30964
+[Tue Feb 20 15:14:34.426995 2018] [ssl:warn] [pid 30964:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 20 15:14:34.674042 2018] [ssl:warn] [pid 30964:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 20 15:14:34.714041 2018] [mpm_winnt:notice] [pid 30964:tid 628] AH00354: Child: Starting 150 worker threads.
+[Tue Feb 20 15:44:19.498083 2018] [:error] [pid 30964:tid 2004] [client ::1:51844] script 'C:/xampp/htdocs/tutorials/fuctions.php' not found or unable to stat
+[Tue Feb 20 20:36:01.044566 2018] [ssl:warn] [pid 7828:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 20 20:36:01.386599 2018] [core:warn] [pid 7828:tid 632] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 20 20:36:01.594604 2018] [ssl:warn] [pid 7828:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 20 20:36:04.419669 2018] [mpm_winnt:notice] [pid 7828:tid 632] AH00455: Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/5.6.33 configured -- resuming normal operations
+[Tue Feb 20 20:36:04.419669 2018] [mpm_winnt:notice] [pid 7828:tid 632] AH00456: Apache Lounge VC11 Server built: Nov  6 2017 10:38:49
+[Tue Feb 20 20:36:04.419669 2018] [core:notice] [pid 7828:tid 632] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Feb 20 20:36:04.815652 2018] [mpm_winnt:notice] [pid 7828:tid 632] AH00418: Parent: Created child process 4676
+[Tue Feb 20 20:36:05.795750 2018] [ssl:warn] [pid 4676:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 20 20:36:06.267760 2018] [ssl:warn] [pid 4676:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 20 20:36:06.407768 2018] [mpm_winnt:notice] [pid 4676:tid 644] AH00354: Child: Starting 150 worker threads.
